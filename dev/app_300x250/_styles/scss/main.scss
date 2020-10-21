@@ -1,0 +1,36 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	// opacity: 1;
+	.overhang{
+		transform-origin: 50% 0;
+		@include pos-scale(45, 72, .5);
+	}
+	.screen_blue{
+		@include pos-scale(1, 0, .5);
+	}
+
+	.bg{		
+		@include pos-scale(0, -70, .5);
+		// @include pos-scale(-1320, -10, .5);
+	}
+
+	.buy{		
+		transform-origin: 50% 50%;
+		@include pos-scale(88, 165, .5);
+	}
+}
+
+
+
+#banner{
+	font-size: 20px;
+	color: #333;
+	width: 300px;
+	height: 250px;
+}
+

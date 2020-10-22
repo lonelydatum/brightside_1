@@ -1,0 +1,35 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+.frame1 {
+	
+	// opacity: 1;
+	
+	.can_1{
+		@include pos-scale(173, 4, .5);
+	}
+
+	.can_2{
+		@include pos-scale(232, -4, .5);
+	}
+	
+	.bg{		
+		@include pos-scale(-5, 40, .5);
+	}
+
+	
+}
+
+
+
+#banner{
+	font-size: 20px;
+	color: #333;
+	width: 320px;
+	height: 50px;
+	background-color: #72c6e7;
+}
+

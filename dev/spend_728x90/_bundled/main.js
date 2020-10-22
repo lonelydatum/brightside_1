@@ -11,16 +11,16 @@ function start() {
 	tl.from(".can_1", .3, { y: "+=100", ease: Power3.easeOut }, "+=.4");
 	tl.from(".can_2", .3, { y: "+=100", ease: Power3.easeOut }, "-=.2");
 
-	tl.add("f1-out", "+=2");
+	tl.add("f1-out", "+=1.8");
 	tl.to(".t1", .2, { opacity: 0 }, "f1-out");
 	tl.to(".can_1", .3, { y: "+=100" }, "f1-out");
 	tl.to(".can_2", .3, { y: "+=100" }, "f1-out");
 
 	tl.add("f2-in", "+=.3");
 	tl.from(".t2", .3, { opacity: 0 }, "f2-in");
-	tl.from(".card", .4, { opacity: 0 }, "+=.5");
+	tl.from(".card", .4, { opacity: 0 }, "+=.3");
 
-	tl.add("f2-out", "+=2.2");
+	tl.add("f2-out", "+=1.8");
 	tl.to(".t2", .2, { opacity: 0 }, "f2-out");
 
 	tl.add("f3-in", "+=.1");
@@ -36,7 +36,7 @@ function start() {
 	tl.to(".sign_2", .1, { opacity: 0 }, "f3-out");
 	tl.to(".app", .2, { opacity: 0 }, "+=.2");
 
-	tl.add("f4-in", "+=.1");
+	tl.add("f4-in");
 
 	tl.from(".t4", .3, { opacity: 0, ease: Power3.easeOut }, "f4-in");
 	tl.from(".cta", .3, { opacity: 0, ease: Power3.easeOut });

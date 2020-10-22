@@ -31,16 +31,16 @@ function start(){
 
 
 	tl.add("f3-in", "+=.1")
+	tl.from(".t3", .3, {opacity:0}, "f3-in")
+	tl.from(".sign_1", .2, {opacity:0}, "+=.6")
+	tl.from(".sign_2", .2, {opacity:0}, "+=.2")
 	
-	tl.from(".sign_1", .2, {opacity:0}, "f3-in")
-	tl.from(".sign_2", .2, {opacity:0}, "f3-in+=.2")
-	tl.from(".t3", .3, {opacity:0}, "f3-in+=.8")
 
 	tl.add("f3-out", "+=2.2")
 	tl.to(".card", .4, {x:"-=300"}, "f3-out")
 	tl.to(".t3", .2, {opacity:0}, "f3-out")
-	tl.to(".sign_1", .2, {opacity:0}, "f3-out")
-	tl.to(".sign_2", .2, {opacity:0}, "f3-out")
+	tl.to(".sign_1", .1, {opacity:0}, "f3-out")
+	tl.to(".sign_2", .1, {opacity:0}, "f3-out")
 
 	tl.add("f4-in", "+=.1")
 	tl.from(".phone_1", .3, {y:"+=250", ease:Power3.easeOut})

@@ -7,7 +7,7 @@ function start(){
 	
 	tl.add("f1-start", "+=.3")
 	tl.from(".t1", .3, {opacity:0, y:"+=20", ease:Power3.easeOut}, "f1-start")
-	// tl.from(".phone_1", .3, {opacity:0, y:"+=20", ease:Power3.easeOut}, "+=.3")
+	// tl.from(".phone_1", .3, {opacity:0, y:"+=20", ease:Power3.easeOut})
 
 	tl.add("f1-end", "+=2.6")
 	tl.to(".t1", .2, {opacity:0, ease:Power3.easeOut}, "f1-end")

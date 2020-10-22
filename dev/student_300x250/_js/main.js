@@ -9,7 +9,7 @@ function start(){
 	
 	tl.add("f1-in")	
 	tl.from(".t1", .3, {opacity:0}, "+=.1")
-	tl.from(".fun1", .1, {opacity:0}, "+=.3")
+	tl.from(".fun1", .1, {opacity:0}, "+=.6")
 	tl.from(".fun2", .1, {opacity:0}, "+=.2")
 	
 	
@@ -20,17 +20,17 @@ function start(){
 	tl.add("f2-in", "+=.2")
 	tl.from(".t2", .3, {opacity:0}, "f2-in")
 	tl.from(".study1", .1, {opacity:0}, "+=.2")
-	tl.from(".study2", .1, {opacity:0}, "+=.2")
+	tl.from(".study2", .1, {opacity:0}, "+=.1")
 	
 	
 
 
 	tl.add("f2-out", "+=2")
 	tl.to(".study2", .01, {opacity:0}, "f2-out")
-	tl.to(".study1", .01, {opacity:0}, "+=.15")
-	tl.from(".fun2", .01, {opacity:0}, "+=.2")
-	tl.from(".fun1", .01, {opacity:0}, "+=.25")
-	tl.from(".t2", .2, {opacity:0}, "+=.3")
+	tl.to(".study1", .01, {opacity:0}, "+=.1")
+	tl.from(".fun2", .01, {opacity:0}, "+=.1")
+	tl.from(".fun1", .01, {opacity:0}, "+=.1")
+	tl.from(".t2", .2, {opacity:0}, "+=.1")
 	
 
 

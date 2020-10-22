@@ -215,20 +215,6 @@ sup {
   opacity: 0;
 }
 
-.frame1 .overhang {
-  -webkit-transform-origin: 50% 0;
-  -ms-transform-origin: 50% 0;
-  transform-origin: 50% 0;
-  -webkit-transform: translate(45px, 72px) scale(0.5, 0.5);
-  -ms-transform: translate(45px, 72px) scale(0.5, 0.5);
-  transform: translate(45px, 72px) scale(0.5, 0.5);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-}
-
 .frame1 .screen_blue {
   -webkit-transform: translate(1px, 0px) scale(0.5, 0.5);
   -ms-transform: translate(1px, 0px) scale(0.5, 0.5);
@@ -240,24 +226,13 @@ sup {
   position: absolute;
 }
 
-.frame1 .bg {
-  -webkit-transform: translate(0px, -75px) scale(0.5, 0.5);
-  -ms-transform: translate(0px, -75px) scale(0.5, 0.5);
-  transform: translate(0px, -75px) scale(0.5, 0.5);
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
-  position: absolute;
-}
-
 .frame1 .buy {
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
-  -webkit-transform: translate(88px, 165px) scale(0.5, 0.5);
-  -ms-transform: translate(88px, 165px) scale(0.5, 0.5);
-  transform: translate(88px, 165px) scale(0.5, 0.5);
+  -webkit-transform: translate(336px, 7px) scale(0.5, 0.5);
+  -ms-transform: translate(336px, 7px) scale(0.5, 0.5);
+  transform: translate(336px, 7px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -265,7 +240,7 @@ sup {
   position: absolute;
 }
 
-.frame1 .phone_1 {
+.frame1 .phone_2 {
   -webkit-transform: translate(20px, 0px) scale(0.5, 0.5);
   -ms-transform: translate(20px, 0px) scale(0.5, 0.5);
   transform: translate(20px, 0px) scale(0.5, 0.5);
@@ -276,7 +251,7 @@ sup {
   position: absolute;
 }
 
-.frame1 .card_2 {
+.frame1 .card {
   -webkit-transform: translate(16px, 0px) scale(0.5, 0.5);
   -ms-transform: translate(16px, 0px) scale(0.5, 0.5);
   transform: translate(16px, 0px) scale(0.5, 0.5);
@@ -287,13 +262,35 @@ sup {
   position: absolute;
 }
 
-.frame1 .cart_4 {
+.frame1 .cart, .frame1 .cart_4 {
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
-  -webkit-transform: translate(221px, 147px) scale(0.5, 0.5);
-  -ms-transform: translate(221px, 147px) scale(0.5, 0.5);
-  transform: translate(221px, 147px) scale(0.5, 0.5);
+  -webkit-transform: translate(0px, 0px) scale(0.5, 0.5);
+  -ms-transform: translate(0px, 0px) scale(0.5, 0.5);
+  transform: translate(0px, 0px) scale(0.5, 0.5);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+}
+
+.frame1 .cart {
+  -webkit-transform: translate(399px, -9px) scale(0.5, 0.5);
+  -ms-transform: translate(399px, -9px) scale(0.5, 0.5);
+  transform: translate(399px, -9px) scale(0.5, 0.5);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  position: absolute;
+}
+
+.frame1 .cart_4 {
+  -webkit-transform: translate(500px, 7px) scale(0.5, 0.5);
+  -ms-transform: translate(500px, 7px) scale(0.5, 0.5);
+  transform: translate(500px, 7px) scale(0.5, 0.5);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
@@ -304,8 +301,8 @@ sup {
 #banner {
   font-size: 20px;
   color: #333;
-  width: 300px;
-  height: 250px;
+  width: 728px;
+  height: 90px;
 }
 
 /*# sourceMappingURL=main.css.map */

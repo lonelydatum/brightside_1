@@ -6,37 +6,39 @@
 
 .frame1 {
 	// opacity: 1;
-	.overhang{
-		transform-origin: 50% 0;
-		@include pos-scale(45, 72, .5);
-	}
+	
 	.screen_blue{
 		@include pos-scale(1, 0, .5);
 	}
 
-	.bg{		
-		@include pos-scale(0, -75, .5);
-		// @include pos-scale(-1320, -45, .5);
-	}
+
 
 	.buy{		
 		transform-origin: 50% 50%;
-		@include pos-scale(88, 165, .5);
+		@include pos-scale(336, 7, .5);
 	}
 
 
-	.phone_1{
+	.phone_2{
 		@include pos-scale(20, 0, .5);
 	}
 
-	.card_2{
+	.card{
 		@include pos-scale(16, 0, .5);
 	}
 
 
-	.cart_4{
+	.cart, .cart_4{
 		transform-origin: 50% 50%;
-		@include pos-scale(221, 147, .5);
+		@include pos-scale(0, 0, .5);
+	}
+
+	.cart{		
+		@include pos-scale(399, -9, .5);
+	}
+
+	.cart_4{		
+		@include pos-scale(500, 7, .5);
 	}
 }
 
@@ -45,7 +47,7 @@
 #banner{
 	font-size: 20px;
 	color: #333;
-	width: 300px;
-	height: 250px;
+	width: 728px;
+	height: 90px;
 }
 

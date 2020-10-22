@@ -265,7 +265,7 @@ sup {
   position: absolute;
 }
 
-.frame1 .phone_2 {
+.frame1 .phone_1 {
   -webkit-transform: translate(20px, 0px) scale(0.5, 0.5);
   -ms-transform: translate(20px, 0px) scale(0.5, 0.5);
   transform: translate(20px, 0px) scale(0.5, 0.5);
@@ -276,7 +276,7 @@ sup {
   position: absolute;
 }
 
-.frame1 .card {
+.frame1 .card_2 {
   -webkit-transform: translate(16px, 0px) scale(0.5, 0.5);
   -ms-transform: translate(16px, 0px) scale(0.5, 0.5);
   transform: translate(16px, 0px) scale(0.5, 0.5);

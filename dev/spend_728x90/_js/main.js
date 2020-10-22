@@ -1,5 +1,5 @@
 function start(){
-	TweenLite.defaultEase = Power2.easeOut
+	TweenLite.defaultEase = Power3.easeOut
 	const tl = new TimelineMax()
 	tl.set(".frame1", {opacity:1})
 	

@@ -18,10 +18,11 @@ function start() {
 	tl.from(".overhang", .5, { scale: 0, ease: Back.easeOut }, "f2");
 	tl.from(".screen_blue", .5, { y: "+=200", ease: Power3.easeOut }, "f2");
 	tl.from(".cart", .5, { y: "+=200", ease: Power3.easeOut }, "f2");
+	tl.from(".cart_4", .3, { scale: 0, ease: Back.easeOut }, "+=.1");
 
 	tl.add("f2-end", "+=3");
 	tl.to(".t2", .3, { opacity: 0, ease: Power3.easeOut }, "f2-end");
-	tl.to(".cart", .1, { opacity: 0, ease: Back.easeOut }, "f2-end");
+	tl.to([".cart", ".cart_4"], .1, { opacity: 0, ease: Back.easeOut }, "f2-end");
 
 	tl.add("f3", "+=.2");
 	tl.from(".t3", .3, { opacity: 0, ease: Power3.easeOut }, "f3");
@@ -33,9 +34,8 @@ function start() {
 
 	tl.add("f4", "+=.2");
 	tl.from(".phone_2", .3, { y: "+=250", ease: Power3.easeOut });
-	tl.from(".card", .6, { y: "+=250", x: "-100", opacity: 0, ease: Power3.easeOut });
+	tl.from(".card", .4, { y: "+=250", x: "-70", opacity: 0, ease: Power3.easeOut });
 	tl.from(".app", .3, { opacity: 0, ease: Power3.easeOut });
-	tl.from(".cta", .3, { opacity: 0, y: "+=50", ease: Power3.easeOut }, "+=1.3");
 
 	// tl.gotoAndPlay("f3-end")
 }

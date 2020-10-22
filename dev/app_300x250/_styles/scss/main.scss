@@ -23,6 +23,21 @@
 		transform-origin: 50% 50%;
 		@include pos-scale(88, 165, .5);
 	}
+
+
+	.phone_2{
+		@include pos-scale(20, 0, .5);
+	}
+
+	.card{
+		@include pos-scale(16, 0, .5);
+	}
+
+
+	.cart_4{
+		transform-origin: 50% 50%;
+		@include pos-scale(221, 147, .5);
+	}
 }
 
 

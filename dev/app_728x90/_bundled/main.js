@@ -19,7 +19,7 @@ function start() {
 	tl.from(".cart", .5, { y: "+=200", ease: Power3.easeOut });
 	tl.from(".cart_4", .3, { scale: 0, ease: Back.easeOut }, "+=.1");
 
-	tl.add("f2-end", "+=3");
+	tl.add("f2-end", "+=2.5");
 	tl.to(".t2", .3, { opacity: 0, ease: Power3.easeOut }, "f2-end");
 	tl.to([".cart", ".cart_4"], .1, { opacity: 0, ease: Back.easeOut }, "f2-end");
 

@@ -37,14 +37,15 @@ function start(){
 
 
 	tl.add("f3-in", "+=.3")
-	tl.from(".t3", .3, {opacity:0}, "f3-in")
+	tl.from([".t3", ".legal"], .3, {opacity:0}, "f3-in")
 	tl.from(".cta", .3, {opacity:0})
-	tl.from(".legal", .3, {opacity:0})
+	
 
 	
 	
 	
-	
+	tl.to(".t3", .3, {opacity:0}, "+=2.2")	
+	tl.from(".t5", .3, {opacity:0}, "+=.2")	
 
 
 	// tl.gotoAndPlay("f3-in")

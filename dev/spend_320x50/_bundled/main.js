@@ -40,9 +40,11 @@ function start() {
 
 	tl.add("f4-in", "+=.1");
 
-	tl.from(".t4", .3, { opacity: 0, ease: Power3.easeOut }, "f4-in");
+	tl.from([".t4", ".legal"], .3, { opacity: 0, ease: Power3.easeOut }, "f4-in");
 	tl.from(".cta", .3, { opacity: 0, ease: Power3.easeOut });
-	tl.from(".legal", .3, { opacity: 0, ease: Power3.easeOut });
+
+	tl.to(".t4", .3, { opacity: 0 }, "+=2.2");
+	tl.from(".t5", .3, { opacity: 0 }, "+=.2");
 
 	// tl.gotoAndPlay("f3-in")
 }

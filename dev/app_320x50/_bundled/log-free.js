@@ -35,9 +35,12 @@ function start() {
 	tl.to([".phone_1", ".screen_blue", ".buy"], .5, { y: "+=200", ease: Power2.easeOut }, "f3-end");
 
 	tl.add("f4", "+=.2");
-	tl.from(".t4", .3, { opacity: 0 });
+	tl.from([".t4", ".legal"], .3, { opacity: 0 });
 	tl.from(".cta", .3, { opacity: 0 });
 	tl.from(".app", .3, { opacity: 0 });
+
+	tl.to(".t4", .3, { opacity: 0 }, "+=2.2");
+	tl.from(".t5", .3, { opacity: 0 }, "+=.2");
 
 	// tl.gotoAndPlay("f3-end")
 }

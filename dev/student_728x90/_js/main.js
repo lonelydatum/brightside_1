@@ -38,6 +38,7 @@ function start(){
 
 	tl.add("f3-in", "+=.3")
 	tl.from(".t3", .3, {opacity:0}, "f3-in")
+	tl.from(".t4", .3, {opacity:0}, "+=.5")
 	tl.from(".cta", .3, {opacity:0})
 	tl.from(".legal", .3, {opacity:0})
 

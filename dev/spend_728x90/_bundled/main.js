@@ -39,6 +39,7 @@ function start() {
 	tl.add("f4-in");
 
 	tl.from(".t4", .3, { opacity: 0, ease: Power3.easeOut }, "f4-in");
+	tl.from(".t5", .3, { opacity: 0 }, "+=.5");
 	tl.from(".cta", .3, { opacity: 0, ease: Power3.easeOut });
 	tl.from(".legal", .3, { opacity: 0, ease: Power3.easeOut });
 

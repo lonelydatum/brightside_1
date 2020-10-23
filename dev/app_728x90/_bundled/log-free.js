@@ -33,6 +33,7 @@ function start() {
 
 	tl.add("f4", "+=.2");
 	tl.from(".t4", .3, { opacity: 0 });
+	tl.from(".t5", .3, { opacity: 0 }, "+=.5");
 	tl.from(".cta", .3, { opacity: 0 });
 	tl.from(".app", .3, { opacity: 0 });
 
